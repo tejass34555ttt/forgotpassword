@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    
+}
+.reset{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.template{
+    margin: 50px 25px;
+
+}
+h2{
+    margin-bottom: 20px;
+
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.input-field{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-field label{
+    margin-bottom: 5px;
+}
+.input-field input{
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field input:focus{
+    border: solid 1px #3c69ca;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    background-color: #3c69ca;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}   
+.box{
+    padding: 20px;
+    border:  solid 1px #ccc;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow:  0 0 5px #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:  column;
+}
+
+.alert{
+    background-color: rgb(189, 75, 75);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.message{
+    padding: 20px;
+    border:  solid 1px #ccc;
+    border-radius: 15px;
+ 
+    background-color: white;
+    box-shadow:  0 0 5px #ccc;
+}
+.message h1{
+    margin-bottom: 20px;
+}
+.close{
+    margin-top: 20px;
+    color:  #838383;
+    text-align: center;
+}
